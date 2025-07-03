@@ -50,7 +50,7 @@ def user_input_features():
     "Sales Representative": 8
 }
 
-    }
+    
     overtime_map = {"No": 0, "Yes": 1}
     stock_option_map = {
         "None": 0,
