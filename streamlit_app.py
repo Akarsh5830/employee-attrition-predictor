@@ -19,7 +19,7 @@ def user_input_features():
     Education = st.selectbox("Education Level", [1, 2, 3, 4, 5])
     EducationField = st.selectbox("Education Field", [0, 1, 2, 3, 4, 5])
     EnvironmentSatisfaction = st.slider("Environment Satisfaction", 1, 4, 3)
-    Gender = st.selectbox("Gender", [0, 1])  # Female:0, Male:1
+    Gender = st.selectbox("Gender", [Male, Female])  # Female:0, Male:1
     HourlyRate = st.slider("Hourly Rate", 30, 100, 70)
     JobInvolvement = st.slider("Job Involvement", 1, 4, 3)
     JobLevel = st.selectbox("Job Level", [1, 2, 3, 4, 5])
