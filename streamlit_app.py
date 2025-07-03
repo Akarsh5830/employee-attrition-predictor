@@ -38,23 +38,18 @@ def user_input_features():
         "Other": 4,
         "Technical Degree": 5
     }
-    job_role_map = {
-        "Healthcare Representative": 0,
-        "Human Resources": 1,
-        "Laboratory Technician": 2,
-        "Manager": 3,
-        "Manufacturing Director": 4,
-        "Research Director": 5,
-        "Research Scientist": 6,
-        "Sales Executive": 7,
-        "Sales Representative": 8,
-        "Software Engineer": 9,
-        "Data Scientist": 10,
-        "DevOps Engineer": 11,
-        "UI/UX Designer": 12,
-        "QA Tester": 13,
-        "AI Engineer": 14,
-        "Full Stack Developer": 15
+  job_role_map = {
+    "Healthcare Representative": 0,
+    "Human Resources": 1,
+    "Laboratory Technician": 2,
+    "Manager": 3,
+    "Manufacturing Director": 4,
+    "Research Director": 5,
+    "Research Scientist": 6,
+    "Sales Executive": 7,
+    "Sales Representative": 8
+}
+
     }
     overtime_map = {"No": 0, "Yes": 1}
     stock_option_map = {
